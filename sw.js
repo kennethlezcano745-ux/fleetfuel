@@ -1,8 +1,8 @@
-const CACHE = 'fleetfuel-v1';
+const CACHE = 'logistica24hrs-v1';
 const ASSETS = [
-  '/fleetfuel/',
-  '/fleetfuel/index.html',
-  '/fleetfuel/manifest.json'
+  '/logistica24hrs/',
+  '/logistica24hrs/index.html',
+  '/logistica24hrs/manifest.json'
 ];
 
 self.addEventListener('install', e => {
