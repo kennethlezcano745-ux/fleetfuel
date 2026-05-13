@@ -4,14 +4,12 @@
 
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <title>FleetFuel · Logística24hrs</title>
-<link rel="manifest" href="file:///C:/manifest.json">
 <meta name="theme-color" content="#f97316">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="FleetFuel">
-<link rel="apple-touch-icon" href="file:///C:/icon-192.png">
-<script src="./FleetFuel · Logística24hrs 1_files/chart.umd.js.descargar"></script>
-<script src="./FleetFuel · Logística24hrs 1_files/xlsx.full.min.js.descargar"></script>
-<link rel="stylesheet" href="./FleetFuel · Logística24hrs 1_files/tabler-icons.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.0.0/tabler-icons.min.css">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -159,8 +157,8 @@ select.inp option{background:var(--s2)}
       <button onclick="const i=$(&#39;lPwd&#39;);i.type=i.type===&#39;password&#39;?&#39;text&#39;:&#39;password&#39;" style="position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--t3);cursor:pointer;font-size:16px;padding:4px">👁</button>
     </div><div class="xs t3 mt8" style="text-align:left">Por defecto: últimos 4 caracteres de la placa</div></div><div id="lErr"></div><button class="btn pr wf" style="justify-content: center; padding: 10px; margin-top: 4px;"><i class="ti ti-login"></i> Ingresar</button><div style="margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--b1);"><div class="xs t3 mb8">Acceso administrador</div>
     <input class="inp" id="aPwd" type="password" placeholder="Contraseña de administrador" style="font-size:12px;padding:7px 10px;margin-bottom:8px"><button class="btn wf sm" style="justify-content: center; width: 100%;"><i class="ti ti-shield-lock"></i> Entrar como administrador</button></div></div></div></div>
-<script src="./FleetFuel · Logística24hrs 1_files/firebase-app-compat.js.descargar"></script>
-<script src="./FleetFuel · Logística24hrs 1_files/firebase-firestore-compat.js.descargar"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
 <script>
 // ═══════════ CONSTANTES ═══════════
 const LOGO = document.getElementById('_logo').src;
