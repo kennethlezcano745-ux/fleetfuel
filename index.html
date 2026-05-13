@@ -485,7 +485,7 @@ function renderSidebar(){
   const bk=div('nav-it','<i class="ti ti-arrow-left"></i>Cerrar sesión');
   bk.onclick=()=>{S.mode='login';render();};sep.appendChild(bk);nav.appendChild(sep);
   sb.appendChild(nav);
-  sb.innerHTML+=`<div class="sb-foot"><strong style="display:block;color:var(--t2);font-size:12px">Logística24hrs</strong>FleetFuel${fbReady?` <span class="sync-dot"></span>`:''}`;
+  const sbFoot=document.createElement('div');sbFoot.className='sb-foot';sbFoot.innerHTML='<strong style="display:block;color:var(--t2);font-size:12px">Logística24hrs</strong>FleetFuel'+(fbReady?'<span class="sync-dot"></span>':'');sb.appendChild(sbFoot);
   return sb;
 }
 
